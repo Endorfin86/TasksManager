@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  vue-app:
+    image: endorfin86/vue-app
+    ports:
+      - "80:80"
+    networks:
+      - my-network
+  django-app:
+    image: endorfin86/django-app
+    ports:
+      - "8000:8000"
+    networks:
+      - my-network
+
+networks:
+  my-network:
