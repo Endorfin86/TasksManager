@@ -162,10 +162,6 @@ DJOSER = {
 }
 
 
-CORS_ALLOWED_ORIGINS = [
-    'http://localhost:5173',
-    'http://localhost',
-    'http://localhost:80',
-]
+CORS_ALLOWED_ORIGINS = ['*']
 
 # endorfin86/django-app     latest    7804cdce87d8   2 minutes ago    1.32GB
